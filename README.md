@@ -1,46 +1,61 @@
-# 👋 Hola, soy Didhier Palacios
+# Didhier Palacios — IT Infrastructure & Systems
 
-🖥️ Técnico IT | Soporte N1/N2 | Helpdesk Corporativo  
-📍 Barcelona, España  
-🎓 ASIR en curso — UOC  
-🔭 Buscando empleo IT en Barcelona
+Técnico IT con +6 años de experiencia en soporte y administración de sistemas.  
+Especializado en entornos Windows, Active Directory y redes corporativas.  
+Actualmente cursando **ASIR (FP Superior)** y ampliando experiencia en infraestructura de red avanzada.
 
----
-
-## 🛠️ Habilidades Técnicas
-
-- **Sistemas:** Windows 10/11 · Windows Server 2019 · Ubuntu Server
-- **Directorio Activo:** Active Directory · GPO · DNS · DHCP
-- **Ticketing:** JIRA · OTRS
-- **Productividad:** Office 365 · Exchange · Teams
-- **Redes:** LAN/WAN · TCP/IP · Routers · Switches
-- **Virtualización:** Proxmox VE
-- **Soporte remoto:** TeamViewer · RDP · AnyDesk
-- **Scripting:** PowerShell (básico)
+📍 Barcelona, España &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/didhier-palacios) &nbsp;|&nbsp; 📧 didhierpalacios@gmail.com
 
 ---
 
-## 🔬 Laboratorio Personal (Proxmox)
+## Stack técnico
 
-Tengo un laboratorio doméstico donde practico entornos corporativos reales:
+**Sistemas**
+`Windows 10/11` `Windows Server 2019` `Ubuntu Server` `FreeBSD`
 
-- Windows Server con Active Directory
-- GPOs corporativas por departamento
-- DNS · DHCP · File Server
-- Redes segmentadas con VLANs
-- Ubuntu Server
+**Redes**
+`TCP/IP` `LAN/WAN` `DHCP` `DNS` `Firewall` `NAT` `OPNsense`
+
+**Virtualización**
+`Proxmox VE` `KVM` `Contenedores LXC`
+
+**Directorio & Identidad**
+`Active Directory` `GPO` `DNS/DHCP corporativo` `OU Design`
+
+**Herramientas**
+`PowerShell` `JIRA` `OTRS` `TeamViewer` `RDP` `Office 365`
 
 ---
 
-## 📁 Proyectos
+## 🔬 DHEXIO — Homelab de infraestructura real
+
+Laboratorio doméstico construido con hardware físico real donde implemento y documento infraestructura de nivel corporativo.
+
+**Infraestructura desplegada:**
+
+| Capa | Tecnología | Estado |
+|---|---|---|
+| Hipervisor | Proxmox VE — Lenovo M90q G2 | ✅ Operativo |
+| Firewall/Router | OPNsense 26.1 — Dell E5420 (bare metal) | ✅ Operativo |
+| Red interna | LAN 10.0.1.0/24 · DHCP · Unbound DNS | ✅ Operativo |
+| Directorio | Windows Server 2019 · AD · GPOs corporativas | ✅ Operativo |
+| Servicios | Docker · Nginx · Portainer | 🔧 En progreso |
+| Segmentación | VLANs · Hardening | 📅 Planificado |
+
+👉 [Ver proyecto completo DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO)
+
+---
+
+## Proyectos
 
 | Proyecto | Descripción | Estado |
 |---|---|---|
-| [homelab-proxmox-ad](https://github.com/SOY-DIDHIER/homelab-proxmox-ad) | Infraestructura AD corporativa en Proxmox | 🔨 En construcción |
+| [DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO) | Infraestructura IT completa con Proxmox, OPNsense y AD | 🔧 En progreso |
 
 ---
 
-## 📬 Contacto
+## Contacto
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/didhier-palacios)
-- 📧 didhierpalacios@gmail.com
+💼 [LinkedIn — Didhier Palacios](https://www.linkedin.com/in/didhier-palacios)  
+📧 didhierpalacios@gmail.com
+
