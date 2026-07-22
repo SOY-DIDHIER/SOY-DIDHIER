@@ -11,19 +11,16 @@ Actualmente cursando **ASIR (FP Superior)** y ampliando experiencia en infraestr
 ## Stack técnico
 
 **Sistemas**
-`Windows 10/11` `Windows Server 2019` `Ubuntu Server` `FreeBSD`
+`Windows 10/11` `Windows Server 2022` `Ubuntu Server`
 
 **Redes**
-`TCP/IP` `LAN/WAN` `DHCP` `DNS` `Firewall` `NAT` `OPNsense`
-
-**Virtualización**
-`Proxmox VE` `KVM` `Contenedores LXC`
+`TCP/IP` `LAN/WAN` `DHCP` `DNS` `Firewall` `NAT` `OPNsense` `VLANs`
 
 **Directorio & Identidad**
 `Active Directory` `GPO` `DNS/DHCP corporativo` `OU Design`
 
 **Herramientas**
-`PowerShell` `JIRA` `OTRS` `TeamViewer` `RDP` `Office 365`
+`PowerShell` `Docker` `JIRA` `OTRS` `TeamViewer` `RDP` `Office 365`
 
 ---
 
@@ -35,12 +32,12 @@ Laboratorio doméstico construido con hardware físico real donde implemento y d
 
 | Capa | Tecnología | Estado |
 |---|---|---|
-| Hipervisor | Proxmox VE — Lenovo M90q G2 | ✅ Operativo |
-| Firewall/Router | OPNsense 26.1 — Dell E5420 (bare metal) | ✅ Operativo |
-| Red interna | LAN 10.0.1.0/24 · DHCP · Unbound DNS | ✅ Operativo |
-| Directorio | Windows Server 2019 · AD · GPOs corporativas | ✅ Operativo |
-| Servicios | Docker · Nginx · Portainer | 🔧 En progreso |
-| Segmentación | VLANs · Hardening | 📅 Planificado |
+| Servidor 1 | Lenovo M90q — Ubuntu Server + Docker | ✅ Operativo |
+| Servidor 2 | Lenovo M710 — Windows Server 2022 | ✅ Operativo |
+| Firewall | OPNsense | ✅ Operativo |
+| Switch principal | TP-Link SG608E | ✅ Operativo |
+| Segmentación | VLANs (10/20/30) | ✅ Operativo |
+| Laboratorio Cisco | Switches 2950 / 2960 | ✅ Operativo |
 
 👉 [Ver proyecto completo DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO)
 
@@ -50,7 +47,7 @@ Laboratorio doméstico construido con hardware físico real donde implemento y d
 
 | Proyecto | Descripción | Estado |
 |---|---|---|
-| [DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO) | Infraestructura IT completa con Proxmox, OPNsense y AD | 🔧 En progreso |
+| [DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO) | Infraestructura IT completa con Active Directory, segmentación VLAN, OPNsense y Docker | 🔧 En progreso |
 
 ---
 
