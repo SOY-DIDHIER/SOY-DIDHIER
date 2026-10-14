@@ -1,4 +1,4 @@
-# Didhier Palacios — IT Infrastructure & Systems
+# Didhier Palacios — Infraestructura y Sistemas IT
 
 Técnico IT con +6 años de experiencia en soporte y administración de sistemas.  
 Especializado en entornos Windows, Active Directory y redes corporativas.  
