@@ -14,17 +14,20 @@ Actualmente cursando **ASIR (FP Superior)** y ampliando experiencia en infraestr
 `Windows 10/11` `Windows Server 2022` `Ubuntu Server`
 
 **Redes**
-`TCP/IP` `LAN/WAN` `DHCP` `DNS` `Firewall` `NAT` `OPNsense` `VLANs`
+`TCP/IP` `LAN/WAN` `DHCP` `DNS` `Firewall` `NAT` `OPNsense` `VLANs` `WireGuard VPN`
 
 **Directorio & Identidad**
-`Active Directory` `GPO` `DNS/DHCP corporativo` `OU Design`
+`Active Directory` `GPO` `DNS/DHCP corporativo` `OU Design` `PKI / CA interna`
+
+**Contenedores & Orquestación**
+`Kubernetes (k3s)` `Alta disponibilidad` `Longhorn` `Traefik`
 
 **Herramientas**
 `PowerShell` `Docker` `JIRA` `OTRS` `TeamViewer` `RDP` `Office 365`
 
 ---
 
-## 🔬 DHEXIO — Homelab de infraestructura real
+## 🔬 DARNEYLAB — Homelab de infraestructura real
 
 Laboratorio doméstico construido con hardware físico real donde implemento y documento infraestructura de nivel corporativo.
 
@@ -32,14 +35,15 @@ Laboratorio doméstico construido con hardware físico real donde implemento y d
 
 | Capa | Tecnología | Estado |
 |---|---|---|
-| Servidor 1 | Lenovo M90q — Ubuntu Server + Docker | ✅ Operativo |
-| Servidor 2 | Lenovo M710 — Windows Server 2022 | ✅ Operativo |
-| Firewall | OPNsense | ✅ Operativo |
+| Nodos 1-3 | Lenovo M90q / M700 — Clúster Kubernetes (k3s) en alta disponibilidad | ✅ Operativo |
+| Servidor Windows | Lenovo M710 — Windows Server 2022 (Active Directory + CA interna) | ✅ Operativo |
+| Firewall | Lenovo M700 — OPNsense | ✅ Operativo |
 | Switch principal | TP-Link SG608E | ✅ Operativo |
-| Segmentación | VLANs (10/20/30) | ✅ Operativo |
+| Segmentación | VLANs | ✅ Operativo |
+| Acceso remoto | VPN WireGuard | ✅ Operativo |
 | Laboratorio Cisco | Switches 2950 / 2960 | ✅ Operativo |
 
-👉 [Ver proyecto completo DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO)
+👉 [Ver proyecto completo DARNEYLAB](https://github.com/SOY-DIDHIER/DARNEYLAB)
 
 ---
 
@@ -47,7 +51,7 @@ Laboratorio doméstico construido con hardware físico real donde implemento y d
 
 | Proyecto | Descripción | Estado |
 |---|---|---|
-| [DHEXIO](https://github.com/SOY-DIDHIER/DHEXIO) | Infraestructura IT completa con Active Directory, segmentación VLAN, OPNsense y Docker | 🔧 En progreso |
+| [DARNEYLAB](https://github.com/SOY-DIDHIER/DARNEYLAB) | Infraestructura IT completa: Active Directory + PKI interna, clúster Kubernetes (k3s) en alta disponibilidad, OPNsense y VPN WireGuard | 🔧 En progreso |
 
 ---
 
